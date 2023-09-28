@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "processoSeletivo",
+            "request": "launch",
+            "mainClass": "candidatura.processoSeletivo",
+            "projectName": "controle-de-candidatos_4f2a90d0"
+        }
+    ]
+}
