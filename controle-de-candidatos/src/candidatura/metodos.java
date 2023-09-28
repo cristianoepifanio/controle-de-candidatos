@@ -7,9 +7,9 @@ public class metodos {
      /*  -------------  METODOS ---------------------- */
     
     /*  ---- metodos para selecionar os candidatos ----- */
-    static String [] candidatos = {"cand 1","cand 2","cand 3","cand 4","cand 5"};
-    static String [] selecionados= {"ninguem","ninguem","ninguem","ninguem"}; 
-    static String [] contratados= {"ninguem","ninguem","ninguem"}; 
+    static String [] candidatos = {"cand 1","cand 2","cand 3","cand 4","cand 5","cand 6","cand 7","cand 8","cand 9","cand 10"};
+    static String [] selecionados= {"ninguem","ninguem","ninguem","ninguem","ninguem","ninguem"}; 
+    static String [] contratados= {"ninguem","ninguem","ninguem","ninguem","ninguem"}; 
     public static  void selecaoDeCandidatos() {
         
         
@@ -19,7 +19,7 @@ public class metodos {
         int indice =0;
         
         
-        while (candidatosSelecionados < 3 && candidatoAtual<candidatos.length) {
+        while (candidatosSelecionados < 5 && candidatoAtual<candidatos.length) {
                  String candidato = candidatos[candidatoAtual];
                  double salarioPretendido = valorPretendido();
                 System.out.println("");
